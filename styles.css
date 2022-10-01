@@ -6,13 +6,13 @@ body {
 h1 {
     margin: 50px auto 0 auto;
     font-family: 'Sacramento', cursive;
-    font-size: 4.5rem;
+    font-size: 300%;
     color: #66BFBF;
 }
 
 h2 {
     font-family: 'Alkalami', serif;
-    font-size: 2rem;
+    font-size: 150%;
     margin: 0;
     color: #66BFBF;
     font-weight: normal;
@@ -32,19 +32,27 @@ a {
     background-color: #F8EDE3;
     position: relative;
     padding-top: 140px;
+    width: 100%;
 }
 
 .top-cloud {
     position: absolute;
-    top: 70px;
-    right: 300px;
+    top: 0;
+    right: 180px;
+    width: 20%;
 }
 
 .bottom-cloud {
     position: absolute;
-    left: 300px;
-    bottom: 300px;
+    left: 200px;
+    bottom: 200px;
+    width: 20%;
+
 }
+
+/* .mountain-img {
+    width: 100%;
+} */
 
 .middle-container {
     padding: 50px 0 50px 0;
@@ -135,6 +143,40 @@ a:hover {
     width: 25%;
     float: right;
     margin-left: 30px;
+}
+
+@media screen and (max-width: 500px) {
+    .mountain-img {
+        width: 100%;
+    }
+
+    .top-cloud {
+        position: absolute;
+        top: 50px;
+        right: 50px;
+    }
+    
+    .bottom-cloud {
+        position: absolute;
+        left: 50px;
+        bottom: 200px;
+    }
+
+    h1 {
+        margin: 0px auto 0 auto;
+        font-family: 'Sacramento', cursive;
+        font-size: 200%;
+        color: #66BFBF;
+    }
+
+    h2 {
+        font-family: 'Alkalami', serif;
+        font-size: 100%;
+        margin: 0;
+        color: #66BFBF;
+        font-weight: normal;
+        padding: 10px 0 20px 0;
+    }
 }
 
 
