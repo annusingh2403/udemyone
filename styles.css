@@ -37,7 +37,7 @@ a {
 
 .top-cloud {
     position: absolute;
-    top: 0;
+    top: 50px;
     right: 180px;
     width: 20%;
 }
@@ -45,7 +45,7 @@ a {
 .bottom-cloud {
     position: absolute;
     left: 200px;
-    bottom: 200px;
+    bottom: 350px;
     width: 20%;
 
 }
